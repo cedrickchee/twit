@@ -1,0 +1,14 @@
+{
+  "name": "twit-clone",
+  "description": "Twitter clone",
+  "version": "0.0.1",
+  "author": "Cedric Chee",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "install-dependencies": "cd api && npm install && cd ../client && npm install",
+    "build": "cd api && npm run build && cd ../client && npm run build",
+    "start": "cd api && npm start && cd ../client && npm start"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

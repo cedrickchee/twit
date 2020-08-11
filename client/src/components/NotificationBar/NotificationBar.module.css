@@ -1,0 +1,9 @@
+.active {
+  top: 0 !important;
+
+  -webkit-transition: 500ms top ease;
+  -moz-transition: 500ms top ease;
+  -ms-transition: 500ms top ease;
+  -o-transition: 500ms top ease;
+  transition: 500ms top ease;
+}
