@@ -20,7 +20,7 @@ type Config = {
 
 let config: Config = {
   domains: {
-    api: 'https://twit-api.onrender.com'
+    api: process.env.REACT_APP_API_URL as string
   }
 };
 
