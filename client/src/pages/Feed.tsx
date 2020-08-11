@@ -142,9 +142,13 @@ const Feed: React.FC = () => {
    * React Hooks and Effects
    */
   useEffect(() => {
-    const pusherClient = new Pusher('7b5fa8ee509bf8bace8a', {
-      cluster: 'mt1',
-    });
+    console.log('aaa', process.env.REACT_APP_PUSHER_APPID);
+    const pusherClient = new Pusher(
+      process.env.REACT_APP_PUSHER_APPID as string,
+      {
+        cluster: 'mt1',
+      }
+    );
     const channel = pusherClient.subscribe('twit');
     channel.bind('tweets', (data: Partial<Tweet>) => {
       // Add a tweet to our queue
