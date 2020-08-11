@@ -61,7 +61,14 @@ later.
 Docs: [Get your Pusher API keys](https://pusher.com/docs/channels/getting_started/javascript#get-your-free-api-keys)
 
 After you have created Pusher account, copy the credentials and add them to
-an `.env.dev` file, within the root of the ['api'](./api) project.
+an `.env.dev` file, within the root of the [`/api`](./api) project.
+
+**Twitter APIs**
+
+You will need valid Twitter Developer credentials in the form of a set of
+consumer and access tokens/keys. You can get these [here](https://developer.twitter.com/en/apply-for-access).
+
+Copy the credentials and add them to the same `.env.dev` file.
 
 ### Setup Development Environment
 
