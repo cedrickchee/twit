@@ -1,9 +1,10 @@
 # Twit
 
-Twit is a Twitter clone, built using React.js, Node.js, and friends.
+Twit is a simple Twitter client, built using React.js, Node.js, and friends.
 
-New unread tweets appear as a notification bar that will prompt the user to view
-them, in an infinite scroll style.
+Twit fetches a realtime list of Tweets for a given keyword. New unread Tweets
+appear as a notification bar that will prompt the user to view them, in an
+infinite scroll style.
 
 **Demo**
 
