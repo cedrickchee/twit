@@ -3,7 +3,7 @@
   "description": "Twitter client",
   "version": "0.0.1",
   "author": "Cedric Chee",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "scripts": {
     "install-dependencies": "cd api && npm install && cd ../client && npm install",
     "build": "cd api && npm run build && cd ../client && npm run build",
