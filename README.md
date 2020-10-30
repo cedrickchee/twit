@@ -1,11 +1,20 @@
 # Twit
 
-Twit is a simple Twitter client, built using React.js, Node.js, and friends.
+Twit is a simple Twitter client, built using React.js, Node.js, Websocket, and friends.
 
-Twit fetches a realtime list of Tweets for a given keyword. New unread Tweets
+Twit fetches a **realtime** list of Tweets for a given keyword. New unread Tweets
 appear as a notification bar that will prompt the user to view them, in an
-infinite scroll style.
+**infinite scroll** style.
 
+Initially, during prototype stage, I used socket.io for Websocket. I migrated to
+Pusher Channels for larger scale production deployment because dealing with
+Websocket and AWS API Gateway is challenging before AWS launched HTTP APIs.
+\
+\
+\
+![app](https://user-images.githubusercontent.com/145605/97685940-23be6000-1ad4-11eb-8163-8dd5aeb65cc6.gif)
+\
+\
 **Demo**
 
 Twitter client: https://d2ccty7fz88oi0.cloudfront.net/
@@ -174,4 +183,8 @@ What's missing and what could have been done better?
 
 ## Questions
 
-[Write-up](./follow-up-questions.md).
+[Write-up](./questions.md).
+
+## Back-end
+
+![terminal](https://user-images.githubusercontent.com/145605/97686542-4cdef080-1ad4-11eb-913d-f7cf8b28fa55.gif)

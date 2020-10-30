@@ -1,6 +1,4 @@
-# Follow-up Questions
-
-Please add a detailed write-up answering the following questions.
+# Questions
 
 1. What external libraries did you use? What are they used for?
 
